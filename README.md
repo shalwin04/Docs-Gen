@@ -13,7 +13,7 @@ This project is a **Documentation Generator** for local repositories that levera
 5. [Technologies Used](#technologies-used)
 6. [File Structure](#file-structure)
 7. [Future Improvements](#future-improvements)
-8. ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+8. [License: MIT](https://github.com/shalwin04/Docs-Gen?tab=MIT-1-ov-file)
 
 ---
 
