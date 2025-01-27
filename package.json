@@ -1,17 +1,26 @@
 {
-  "name": "docs-gen",
-  "version": "1.0.0",
-  "description": "",
+  "name": "docs-gen-js-ts",
+  "version": "1.0.1",
+  "description": "A TypeScript-based documentation generator for local repositories.",
   "main": "dist/index.js",
+  "bin": {
+    "docs-gen": "dist/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "documentation",
+    "generator",
+    "typescript",
+    "docs-gen",
+    "npm package"
+  ],
+  "author": "Shalwin Sanju",
   "type": "module",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@langchain/community": "^0.2.28",
     "@langchain/core": "^0.2.23",

@@ -13,7 +13,7 @@ This project is a **Documentation Generator** for local repositories that levera
 5. [Technologies Used](#technologies-used)
 6. [File Structure](#file-structure)
 7. [Future Improvements](#future-improvements)
-8. [License](#license)
+8. ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ---
 
@@ -33,11 +33,14 @@ This project is a **Documentation Generator** for local repositories that levera
 
 ---
 
-## Installation
+## Usage
+
+### Installation
 
 ### Prerequisites
 
 Ensure the following are installed on your machine:
+
 - Node.js (v18+ recommended)
 - npm or yarn
 - Google API Key for Generative AI
@@ -45,29 +48,16 @@ Ensure the following are installed on your machine:
 
 ### Steps
 
-1. Clone the repository:
+1. Install the package
    ```bash
-   git clone https://github.com/your-username/documentation-generator.git
-   cd documentation-generator
+   npm install docs-gen-js-ts
    ```
-2. Install and Build the dependencies
+2. RUn the script
+
    ```bash
-   npm install
-   npm run build
+   docs-gen
    ```
 
-### Usage
-
-1. Set Environment Variables:
-   - Create a .env file in the root directory and add your Google API Key:
-      ```bash
-      GOOGLE_API_KEY=your-google-api-key
-      ```
-2. Run the project:
-   ```bash
-   node dist/index.js
-   ```
-3. Analyze and Generate Documentation:
    - The project will scan the specified directory (**process.cwd()** by default), split the documents, and generate API documentation based on the loaded code files.
 
 ### Technologies Used
@@ -79,6 +69,7 @@ Ensure the following are installed on your machine:
 - **Node.js:** Executes the backend logic.
 
 ### Future Improvements
+
 - Add support for more programming languages.
 - Integrate with cloud storage for generated documentation.
 - Improve error handling for edge cases (e.g., large repositories).
@@ -86,5 +77,6 @@ Ensure the following are installed on your machine:
 
 Developed by Shalwin.
 If you have questions or feedback, feel free to reach out!
+
 - **Email** : [shalwinsanju.25cs@licet.ac.in]
 - **Github** : [shalwin04](https://github.com/shalwin04)
