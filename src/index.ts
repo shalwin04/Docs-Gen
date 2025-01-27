@@ -21,7 +21,7 @@ import { formatDocumentsAsString } from "langchain/util/document";
 import { UnstructuredLoader } from "@langchain/community/document_loaders/fs/unstructured";
 import { UnstructuredDirectoryLoader } from "@langchain/community/document_loaders/fs/unstructured";
 import { AIMessage, BaseMessage, HumanMessage } from "@langchain/core/messages";
-import { loadDirectory } from "./loadDirectory";
+import { loadDirectory } from "./loadDirectory.js";
 
 import {
   END,
@@ -31,7 +31,7 @@ import {
   Annotation,
 } from "@langchain/langgraph";
 
-async function main() : Promise<void> {
+async function main(): Promise<void> {
   const API_KEY = process.env.GOOGLE_API_KEY;
   // const UN_API_KEY = process.env.UNSTRUCTURED_API_KEY;
 
@@ -218,7 +218,6 @@ context: {context}`,
     //     reducer: (x, y) => x.concat(y),
     //   })
     // })
-
 
     // documents = "";
   } catch (err) {
