@@ -38,7 +38,7 @@ async function main(): Promise<void> {
   // const UN_API_KEY = process.env.UNSTRUCTURED_API_KEY;
 
   const model = new ChatGoogleGenerativeAI({
-    model: "gemini-pro",
+    model: "gemini-2.0-flash-exp",
     apiKey: `${API_KEY}`,
     maxOutputTokens: 2048,
     safetySettings: [
